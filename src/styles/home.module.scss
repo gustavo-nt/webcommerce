@@ -1,0 +1,98 @@
+.container {
+    width: 100%;
+
+    .content {
+        max-width: 1024px;
+        margin: 20px auto;
+
+        .main {
+            display: flex;
+            margin-bottom: 20px;
+            padding-right: 15px;
+            padding-left: 15px;
+
+            .assiderBar {
+                margin-right: 20px;
+                background-color: var(--gray-50);
+
+                ul {
+                    width: 220px;
+                    padding: 20px 0 0 40px;
+
+                    li {
+                        cursor: pointer;
+                        width: max-content;
+                        margin-bottom: 15px;
+                        color: var(--gray-300);
+                        transition: all ease 0.2s;
+
+                        &:hover {
+                            color: var(--red);
+                        }
+                    }
+                }
+            }
+
+            .details {
+                .banner {
+                    height: 250px;
+                    background-color: var(--gray-100);
+                }
+
+                .welcome {
+                    margin-top: 10px;
+
+                    h2 {
+                        font-weight: 100;
+                        margin-bottom: 5px;
+                    }
+
+                    p {
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Responsive
+@media screen and (max-width: 768px) { 
+    .container .content .main .assiderBar {
+        max-height: 310px;
+
+        ul {
+            width: 155px;
+            padding: 20px 0 0 35px;
+        }
+    }
+
+    .container .content .main .details .banner {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 420px) { 
+    .container .content {
+        margin-bottom: 15px;
+
+        .main {
+            padding-left: 10px;
+            padding-right: 10px;
+    
+            .assiderBar {
+                display: none;
+            }
+    
+            .details {
+                .banner {
+                    height: 100px;
+                }
+    
+                .welcome p {
+                    font-size: 0.85rem;
+                }
+            }
+        }
+    }
+}

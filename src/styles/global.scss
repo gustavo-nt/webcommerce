@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FFF;
+    --gray-50: #E2DEDB;  
+    --gray-100: #ACACAC; 
+    --gray-200: #626262; // fonts
+    --gray-300: #231F20; 
+    --black: #000;
+    --red: #CC0D1F;
+    --orange: #DA5244;
+    --yellow: #FC9012;
+    --beige: #B9A687;
+    --blue: #1A53AD;
+    --pink: #BDAFDB;
+    --cyan-light: #28A3AA;
+    --cyan-dark: #80BDB8;
+}
+
+html {
+    font-size: 93.75%;
+}
+
+body {
+    background: var(--white);
+}
+
+body, input, textarea, button {
+    font: 500 1rem 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.hd {
+    display: none !important;
+}
