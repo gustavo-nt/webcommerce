@@ -1,10 +1,14 @@
-<h1>
-    WebJump Front-end
+<h4 align="center">
+  <img src="https://github.com/gustavo-nt/webcommerce/blob/main/public/logo-alurakut.svg" alt="logo" height="50"/>
+</h4>
+
+<h1 align="center">
+    Webcommerce
 </h1>
 
-<p>Desafio Técnico</p>
+<p align="center">Desafio Técnico</p>
 
-<p>
+<p align="center"> 
   <img src="https://img.shields.io/badge/react%20version-17.0.2-informational"/>
   <img src="https://img.shields.io/badge/next%20version-10.1.3-important" />
   <img src="https://img.shields.io/static/v1?label=js&message=ES6&color=yellow&logo=javascript" />
@@ -12,24 +16,25 @@
   <img src="https://img.shields.io/badge/license-MIT-success"/>
 </p>
 
-<p>
+<p align="center">
   <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-pré-requisitos">Pré-Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Lincença</a>
 </p>
 
-<h3> 
+<h3 align="center"> 
 🚧  Finalizado  🚧
 </h3>
 
 ### 📎 Features 
 
-- Página dos Produtos
-- Filtros únicos, disponíveis conforme a categoria
-- Ordenação dos produtos
-- Opções de visualização(grid/list) 
-- Busca por produtos, conforme a categoria
+- [x] Página dos Produtos
+- [x] Filtros únicos, disponíveis conforme a categoria
+- [x] Ordenação dos produtos
+- [x] Opções de visualização(grid/list) 
+- [x] Busca por produtos, conforme a categoria
+- [x] Menu responsivo
 
 ### 💻 Projeto
 
@@ -48,7 +53,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone https://gustavo-nt@bitbucket.org/gustavo-nt/challenge_webjump.git
+$ git clone https://github.com/gustavo-nt/alurakut
 
 # Instale as dependências
 $ yarn
@@ -70,7 +75,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - React
 - Next
 - Node
-- Javascript
 
 ### 📕 Bibliotecas
 
@@ -78,12 +82,9 @@ Esse projeto foi utilizou das seguintes lib e/ou pré-processadores:
 
 - react-dom
 - react-icons
-- cors
-- connect
 - axios
 - sass
-- next images
-- serve-static
+- next-images
 - babel-plugin-inline-react-svg
 
 ### ⚖ Direitos
