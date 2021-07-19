@@ -1,5 +1,5 @@
 <h4 align="center">
-  <img src="https://github.com/gustavo-nt/webcommerce/blob/master/public/logo_webjump.png" alt="logo" height="50"/>
+  <img src="https://github.com/gustavo-nt/webcommerce/blob/master/public/logo_webjump.png" alt="logo" height="80"/>
 </h4>
 
 <h1 align="center">
