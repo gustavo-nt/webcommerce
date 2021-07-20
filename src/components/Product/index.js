@@ -16,7 +16,7 @@ export function Product({data, view}) {
     return ( 
         <div className={`${styles.container} ${view == 'grid' ? styles.grid : styles.list}`}>
             <div className={styles.image}>
-                <img src={`http://localhost:3000/${data.image}`}  alt={data.name}/>
+                <img src={`${process.env.REACT_APP_URL}${data.image}`}  alt={data.name}/>
             </div>
             <div className={styles.details}>
                 <div className={styles.title}>

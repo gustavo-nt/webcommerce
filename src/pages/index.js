@@ -5,6 +5,7 @@ import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import styles from '../styles/home.module.scss';
 import { useState } from 'react';
+import { Loading } from '../components/Loader';
 
 export default function Home({ items }) {
 	const [loader, setLoader] = useState(false)
@@ -20,7 +21,7 @@ export default function Home({ items }) {
 			</Head>
 
 			<div style={{display: loader ? 'block' : 'none'}}>
-				<Footer />
+				<Loading />	
 			</div>
 
 			<div className={styles.container}>

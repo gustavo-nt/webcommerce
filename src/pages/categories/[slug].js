@@ -6,6 +6,7 @@ import { filterProducts, sortProducts } from '../../utils/request';
 
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
+import { Loading } from '../../components/Loader';
 import { Product } from '../../components/Product';
 
 import { FaThList } from 'react-icons/fa';

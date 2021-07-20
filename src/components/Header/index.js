@@ -62,7 +62,7 @@ export function Header({ options, onSearch }) {
             <div className={styles.content}>
                 <div>
                     <div className={styles.mobileIcon}>
-                        <input type="checkbox" className={styles.check} id="check" onClick={handleMenu}/>
+                        <input type="checkbox" className={styles.check} id="check" onClick={handleMenu} />
                         <label htmlFor="check" className={styles.mobileLabel}></label>
                         <span className={styles.mobileSpan}></span>
                     </div>
