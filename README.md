@@ -63,9 +63,6 @@ $ yarn ou npm dev
 
 # Executar a aplicação de produção
 $ yarn ou npm start
-
-# Rode o servidor fake
-$ yarn ou npm server
 ```
 
 ### 🚀 Tecnologias
