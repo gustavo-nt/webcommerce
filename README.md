@@ -56,25 +56,25 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 $ git clone https://github.com/gustavo-nt/alurakut
 
 # Instale as dependências
-$ yarn
+$ yarn ou npm
 
 # Execute a aplicação
-$ yarn dev
+$ yarn ou npm dev
 
 # Executar a aplicação de produção
-$ yarn start
+$ yarn ou npm start
 
 # Rode o servidor fake
-$ yarn server
+$ yarn ou npm server
 ```
 
 ### 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- React
-- Next
-- Node
+- ReactJS
+- Javascript
+- Next.js
 
 ### 📕 Bibliotecas
 
